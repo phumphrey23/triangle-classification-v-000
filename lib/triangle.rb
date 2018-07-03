@@ -27,7 +27,7 @@ class Triangle
   end
 
   def positive?
-    side_a.positive? && side_b.positive? && side_c.positive?
+    side_a > 0  && side_b > 0  && side_c > 0
   end
 
   def valid?
