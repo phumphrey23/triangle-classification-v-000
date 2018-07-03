@@ -17,13 +17,6 @@ class Triangle
      else
        :isosceles
      end
-
-    # if greater_than_zero == true && triangle_inquality == true
-    #   true
-    # else
-    #   raise TriangleError
-    # end
-
   end
 
   def positive?
