@@ -18,11 +18,11 @@ class Triangle
        :isosceles
      end
 
-     if greater_than_zero == true && triangle_inquality == true
-       true
-     else
-       raise TriangleError
-     end
+    # if greater_than_zero == true && triangle_inquality == true
+    #   true
+    # else
+    #   raise TriangleError
+    # end
 
   end
 
