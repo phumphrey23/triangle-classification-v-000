@@ -26,12 +26,8 @@ class Triangle
 
   end
 
-  def positive
-    if (side_a > 0)  && (side_b > 0)  && (side_c > 0)
-      true
-    else
-      false
-    end
+  def positive?
+    (side_a > 0)  && (side_b > 0)  && (side_c > 0)
   end
 
   def valid?
