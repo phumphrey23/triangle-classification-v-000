@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind(side_a, side_b, side_c)
-     if positive? == false || valid? == false
+     if positive == false || valid? == false
        raise TriangleError
      elsif side_a == side_b && side_b == side_c
        :equilateral
